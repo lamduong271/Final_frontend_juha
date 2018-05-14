@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgb(173, 243, 255);
+  padding: 20px;
+  color: rgb(33, 74, 82);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.addButton {
+  margin: 50px 0;
+  text-decoration: none;
+  padding: 15px 40px;
+  transform: all 0.2s;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-width: 1px;
+  background-color:  rgb(173, 243, 255);
+  border:2px solid rgb(33, 74, 82);
+  color:rgb(33, 74, 82);
+}
+
+.addButton:hover {
+  background-color:  rgb(106, 174, 185);
+  cursor: pointer;
+}
+
+.addForm input{
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border:1px solid rgb(33, 74, 82);
+}
+
+.addButton-activity {
+  padding: 10px 30px;
+  background-color: rgb(173, 243, 255);
+  font-size: 13px;
+}
+.rt-td button {
+  display: inline-block;
+  border-radius: 3px;
+  position: relative;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background-color:  rgb(173, 243, 255);
+  border:1px solid rgb(33, 74, 82);
+  color:rgb(33, 74, 82);
+}
+.login a{
+  padding: 5px;
+  text-decoration: none;
+  color:  rgb(33, 74, 82);
+  background-color:  rgb(113, 185, 226);
+  margin: 5px;
+  border-radius: 5px;
+}
+.login a:hover{
+  background-color:  rgb(92, 159, 197);
+}
